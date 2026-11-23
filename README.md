@@ -4,7 +4,13 @@
 
 • Custom Instructions: Cố định vai trò xử lý tự động, ép xuất chuẩn JSON (tối ưu token) và khóa ranh giới dữ liệu trong thẻ <user_input> để vô hiệu hóa Prompt Injection.
 
-• Prompt Library & Chaining: Chia thành 3 module chạy tuần tự: Bước 1 (Lọc mã độc/dữ liệu rác) \(\rightarrow \) Bước 2 (Phân loại cảm xúc) \(\rightarrow \) Bước 3 (Tạo phản hồi).
+• Prompt Library & Chaining: Chia thành 3 module chạy tuần tự:
+
+Bước 1 (Lọc mã độc/dữ liệu rác)
+
+Bước 2 (Phân loại cảm xúc)
+
+Bước 3 (Tạo phản hồi).
 
 • Bắt lỗi dữ liệu dị biệt: Nếu Bước 1 phát hiện tấn công hoặc dữ liệu rỗng/nhiễu, hệ thống ngắt chuỗi ngay lập tức và trả về mã trạng thái an toàn (BLOCKED/IGNORED), tránh crash và tiết kiệm token.
 
